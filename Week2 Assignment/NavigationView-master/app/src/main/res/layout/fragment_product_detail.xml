@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/fragment_product_detail_tv_brand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hey detail name"
+        android:layout_below="@+id/fragment_product_detail_tv_brand"
+        android:id="@+id/fragment_product_detail_tv_des2"/>
+    <android.support.v4.view.ViewPager
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+
+        android:layout_below="@+id/fragment_product_detail_tv_des2"
+        android:id="@+id/fragment_product_detail_vp_pic"
+
+        >
+
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>
